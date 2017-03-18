@@ -1,0 +1,649 @@
+
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.86+0,0.78+100 */
+background: -moz-linear-gradient(left,  rgba(0,0,0,0.86) 0%, rgba(0,0,0,0.78) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.86) 0%,rgba(0,0,0,0.78) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,0,0,0.86) 0%,rgba(0,0,0,0.78) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db000000', endColorstr='#c7000000',GradientType=1 ); /* IE6-9 */
+
+
+}
+/**********************
+GLOBAL STYLES
+**********************/
+#page {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* link and buttons */
+.read-more-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 40px;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.33);
+    border-radius: 2em;
+    margin: 5px;
+    margin-left: 0;
+    margin-right: 2em;
+    margin-top: 40px;
+		transition: 0.5s;
+
+}
+.read-more-btn:hover {
+	background-color: rgba(255, 255, 255, 0.09);
+}
+.paw-up-btn {
+	display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 40px;
+	background-color: rgba(255, 255, 255, 0.09);
+	border-radius: 2em;
+	margin: 5px;
+    margin-left: 0;
+    margin-right: 2em;
+    margin-top: 40px;
+		transition: 0.5s;
+}
+.fa-paw  {
+	transition: 0.5s;
+}
+.paw-up-btn:hover .fa-paw {
+	color: #E0BB54;
+}
+/*********************/
+.brand {
+	display: inline-block;
+	float: left
+}
+.brand img{
+	width: 100%;
+    display: block;
+}
+
+nav {
+
+}
+nav a {
+	text-transform: uppercase;
+}
+.header-wrapper {
+	padding: 25px 0;
+	width: 80%;
+    margin: 0 auto;
+}
+/* nav col 1 */
+nav ul.nav-col-1 {
+	list-style-type: none;
+    margin: 0;
+    margin-left: 40px;
+    padding: 0;
+    float: left;
+    line-height: 57px;
+
+}
+nav ul.nav-col-1 li {
+	display: inline-block;
+}
+nav ul.nav-col-1 li a {
+	text-decoration: none;
+    color: #FFF;
+    padding: 8px 0;
+    margin: 5px 15px;
+    opacity: 0.6;
+}
+nav:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.link-border-right {
+	display: inline-block;
+	height: 10px;
+	width: 2px;
+	background-color: rgba(255, 255, 255, 0.16);
+}
+
+
+
+
+
+/* nav col 2 */
+nav ul.nav-col-2 {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 0 ;
+	float: right;
+	line-height: 57px;
+}
+nav ul.nav-col-2 li {
+	display: inline-block;
+}
+nav ul.nav-col-2 li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 8px 0;
+	opacity: 0.6;
+}
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav-col-2-search {
+	padding: 0 20px;
+    opacity: 0.6;
+}
+.nav-col-2 .fa {
+	color: #FFF;
+}
+.nav-col-2-myCart {
+	padding: 0 20px;
+}
+/* links hover */
+
+nav ul li a:hover {
+	border-bottom: 2px solid #E0BB54;
+	opacity: 1;
+}
+
+
+/* SECTION LANDING */
+
+section#landing {
+	padding: 16em 0px;
+}
+
+/* ABOUT SECTION */
+section#about {
+	background-color: #f8f8f8;;
+    padding: 8em 0;
+}
+
+.about-content-wrapper {
+	width: 40%;
+    margin: 0 auto;
+    padding-left: 18em;
+    background-image: url("../imgs/dog_about.PNG");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.landing-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.landing-wrapper h1 {
+	color: #FFF;
+    font-size: 4em;
+    font-weight: 200;
+   	margin: 10px 0;
+}
+
+.landing-wrapper p {
+	color: #FFF;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin: 20px 0;
+}
+.about-heading {
+	margin-bottom: 60px;
+}
+.about-heading h1 {
+	font-size: 4em;
+    color: #414141;
+    margin-bottom: 0;
+}
+.about-heading p {
+	color: #D2AF4F;
+	margin-top: 10px;
+}
+.break-span {
+	display: block;
+	width: 60px;
+	height: 2px;
+	background-color: #cecece;
+	margin-top: 60px;
+}
+/* collumns */
+.left-col-p  {
+	width: 40%;
+	float: left;
+	margin: 0 20px;
+}
+.left-col-p p {
+	line-height: 25px;
+	color: #b5b5b5;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+.first-letterUppercase {
+	float: left;
+	font-size: 4em;
+	color: #D2B051;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+.first-letterUppercase:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.right-col-p  {
+	width: 40%;
+	float: left;
+	margin: 0 20px;
+}
+.right-col-p p {
+	line-height: 25px;
+	color: #b5b5b5;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+.about-content:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* SECTION DOG-ABOUT*/
+
+section#dog-about {
+	background-image: url("http://www.biogroom.com/app/wp-content/themes/biogroom/images/animals/dogs_large_weimaraner.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	background-position-y: 100px;
+	background-position-x: 85%;
+}
+
+.dog-about-wrapper {
+	padding: 8em 0;
+}
+
+/* first col */
+.dog-about-left-col {
+	float: left;
+  width: 5%;
+  padding: 0 40px;
+  text-align: center;
+}
+.Classno {
+	display: block;
+  color: #606161;
+  opacity: 0.6;
+}
+.Class01 {
+	display: block;
+  font-size: 2em;
+  color: #606161;
+}
+/* second col */
+.dog-about-right-col {
+	width: 30%;
+	padding: 0 10px;
+	float: left;
+}
+
+
+.dog-about-heading h1 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 4em;
+	color: #FFF;
+}
+.dog-about-heading p {
+	color: #9D8542;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.dog-about-p p {
+	color: #FFF;
+    opacity: 0.4;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+}
+/* dog skills */
+
+.dogBox {
+	position: relative;
+	width: 23.333%;
+	float: left;
+	margin-right: 20px;
+}
+.dogBox p {
+	margin: 10px 0;
+	color: #FFF;
+	text-transform: uppercase;
+}
+.energy-fill-overlay {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin: 1px 0;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.14);
+}
+.energy-fill {
+	display: block;
+	width: 70%;
+	height: 4px;
+	border-radius: 10px;
+	background-color: white;
+}
+.grooming-fill-overlay {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin: 1px 0;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.14);
+}
+.grooming-fill {
+	display: block;
+	width: 20%;
+	height: 4px;
+	border-radius: 10px;
+	background-color: white;
+}
+.agility-fill-overlay {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin: 1px 0;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.14);
+}
+.agility-fill {
+	display: block;
+	width: 100%;
+	height: 4px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.dog-skills:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.dog-about-wrapper:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* PRODUCT SELECTOR */
+
+section#product {
+	background-color: #F9F9F9;
+	padding: 5em 0;
+}
+
+
+.product-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+.product-col-right {
+	width: 50%;
+	padding-left: 50%;
+}
+.product-info-title h1 {
+	font-size: 4em;
+    font-weight: 300;
+    color: #272727;
+    padding-left: 120px;
+    margin: 20px 0;
+}
+.product-info {
+	margin-bottom: 4em;
+}
+.product-info-title {
+	background-image: url("../imgs/whistle.PNG");
+	background-repeat: no-repeat;
+    background-position: left;
+}
+.product-info-image {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-info-image img {
+	max-width: 100%;
+	display: block;
+}
+.product-info p {
+	color: #8C8C8C;
+    /* opacity: 0.4; */
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+}
+.product-price {
+	display: block;
+    font-size: 3em;
+    color: #272727;
+}
+
+
+.watch-selector {
+	position: relative;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    padding: 8px;
+    border: 2px solid #FFF;
+    background-color: #7C7784;
+    border-radius: 50%;
+}
+.add-toCart {
+	display: flex;
+}
+.add-toCart-col1 {
+	width: 50%;
+}
+.add-toCart-col2 {
+	width: 50%;
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.add-to-cart {
+    text-transform: uppercase;
+    color: #2C2D2D;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 40px;
+    background-color: #F9F9F9;
+    border-radius: 2em;
+    border: 2px solid #DDDDDD;
+    transition: 0.5s;
+    outline: none;
+    margin: auto 0;
+}
+.add-to-cart:hover {
+	cursor: pointer;
+	transform: translateY(10px);
+}
+
+/* PAW UP SECTION */
+section#paw-up {
+	z-index: 1000;
+	background: rgba(47, 47, 47, 0.51);
+}
+/*buttons */
+.paw-upBtn {
+	display: inline-flex;
+	text-transform: uppercase;
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 40px;
+    margin-top: 4em;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 2em;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+.paw-upBtn i {
+	font-size: 1.5em;
+}
+.paw-upBtn span {
+	line-height: 21px;
+    margin-left: 5px;
+}
+
+.paw-up-header {
+	padding: 4em 0;
+}
+.paw-up-header i {
+	color: white;
+    opacity: 0.5;
+    font-size: 6em;
+    transition: 0.5;
+}
+.paw-up-header i:hover {
+	opacity: 0.8;
+}
+.paw-up-header h1 {
+	color: white;
+    font-weight: 300;
+    margin-top: 1.5em;
+}
+.paw-up-header p {
+	color: #FFF;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+.paw-up-wrapper {
+	width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.paw-up-content-wrapper {
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 4em;
+}
+.name-input {
+	width: 80%;
+	background-color: transparent;
+    border: none;
+    padding: 5px;
+    opacity: 0.5;
+    color: #FFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+    margin: 10px 0;
+    transition: 0.5s;
+}
+.name-input:focus {
+	opacity: 1.0;
+	outline: none;
+}
+
+.email-input {
+	width: 80%;
+	background-color: transparent;
+    border: none;
+    padding: 5px;
+    opacity: 0.5;
+    color: #FFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+    margin: 10px 0;
+    transition: 0.5s;
+}
+.email-input:focus {
+	opacity: 1.0;
+	outline: none;
+}
+
+/* footer */
+footer {
+	padding: 10px 0;
+}
+.footer-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+.col-33 {
+	width: 33.333%;
+	float: left;
+}
+
+
+.footer-wrapper:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.footer-left-col {
+	padding: 5px 0;
+}
+.footer-brandText {
+	margin: 6px 0;
+	color: #FFF;
+	opacity: 0.5;
+}
+
+.footer-center-col {
+	padding: 4px 0;
+	text-align: center;
+}
+.footer-center-col a {
+	color: #FFF;
+	opacity: 0.5;
+}
+.footer-center-col a:hover {
+	opacity: 1.0;
+}
+.footer-center-col i {
+	margin: 0 10px;
+}
+
+.footer-right-col {
+	line-height: 40px;
+	text-align: right;
+}
+.footer-right-col a {
+	color: #FFF;
+    text-decoration: none;
+    opacity: 0.5;
+    margin: 0 10px;
+}
+.footer-right-col a:hover {
+	opacity: 1.0;
+}
+.overlay {
+	z-index: -10;
+    position: absolute;
+    width: 100%;
+    height: 74%;
+    min-height: 700px;
+    background-image: url("http://vignette4.wikia.nocookie.net/thekingdomofios/images/e/e0/The_Dark_Forest.png/revision/latest?cb=20130316215618");
+    background-size: cover;
+    filter: grayscale(100%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
