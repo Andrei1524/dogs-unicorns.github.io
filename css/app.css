@@ -486,8 +486,9 @@ section#product {
 
 /* PAW UP SECTION */
 section#paw-up {
-	z-index: 1000;
-	background: rgba(47, 47, 47, 0.51);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(http://vignette4.wikia.nocookie.net/thekingdomofios/images/e/e0/The_Dark_Forest.png/revision/latest?cb=20130316215618);
+    filter: grayscale(100%);
+    background-position: center;
 }
 /*buttons */
 .paw-upBtn {
@@ -634,16 +635,4 @@ footer {
 }
 .footer-right-col a:hover {
 	opacity: 1.0;
-}
-.overlay {
-	z-index: -10;
-    position: absolute;
-    width: 100%;
-    height: 74%;
-    min-height: 700px;
-    background-image: url("http://vignette4.wikia.nocookie.net/thekingdomofios/images/e/e0/The_Dark_Forest.png/revision/latest?cb=20130316215618");
-    background-size: cover;
-    filter: grayscale(100%);
-    background-position: center;
-    background-repeat: no-repeat;
 }
